@@ -29,7 +29,7 @@ add `src/gz switch_lan_play http://htynkn.github.io/openwrt-switch-lan-play/x86/
 To build switch-lan-play for OpenWrt, first add this feed to your ``feeds.conf`` in a fully set-up OpenWrt SDK [(read here on how to setup the OpenWrt SDK)](https://openwrt.org/docs/guide-developer/using_the_sdk):
 
 ```
-echo "src-git openwrt_switch_lan_play https://github.com/htynkn/openwrt-switch-lan-play.git" >> feeds.conf
+echo "src-git openwrt_switch_lan_play https://github.com/Kva0v0/openwrt-switch-lan-play.git" >> feeds.conf
 
 $ ./scripts/feeds update -a
 $ ./scripts/feeds install -a
